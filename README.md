@@ -16,4 +16,8 @@ The Earth is plotted in blue as the 1950-1979 baseline. All other (following) ye
 
 The visualisation is entirely data-based, using ERA5 data for 1940-2023, available from the [Copernicus press release](https://climate.copernicus.eu/copernicus-september-2023-unprecedented-temperature-anomalies) "September 2023 – unprecedented temperature anomalies; 2023 on track to be the warmest year on record". Used Python packages are matplotlib, numpy, and pandas. 
 
-The notebook makes use of polar coordinates, plotting the global temperatures in the complex plane. Larger distances to the centre of Earth correspond to warmer values, smaller distances to colder values. One revolution around Earth corresponds to the timespan of one year. The globe is rotated (ax.set_theta_zero_location("E", offset=20)), such that individual years start towards the "Eastern" side of the plot in January (with some offset), and September is thus always towards the top ("North") of the plot. For 2023, in particular, this means that we are "out of orbit" at the top of the plot in September 2023.
+The notebook makes use of polar coordinates, plotting the global temperatures in the complex plane,
+
+$$ z = x + iy = r * e^{i \phi} \text{ .} $$
+
+Larger distances to the centre of Earth, $r = | z |$, correspond to warmer values, smaller distances to colder values. One revolution around Earth corresponds to the timespan of one year. The globe is rotated (ax.set_theta_zero_location("E", offset=20)), such that individual years start towards the "Eastern" side of the plot in January (with some offset), and September is thus always towards the top ("North") of the plot. For 2023, in particular, this means that we are "out of orbit" at the top of the plot in September 2023.
