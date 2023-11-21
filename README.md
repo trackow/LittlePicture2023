@@ -12,6 +12,8 @@ In my piece "Out of Orbit", Earth's typical global temperatures are visualised a
 
 The Earth is plotted in blue as the 1950-1979 baseline. All other (following) years span the "atmosphere", while 2023 is plotted with a bold dark line. The two shaded areas show a 1.5 - 2 degree warmer world, and a 2 - 3 degree warmer world, respectively.
 
-## Data
+## Data and method
 
-The visualisation is entirely data-based, using ERA5 data for 1940-2023, available from the [Copernicus press release](https://climate.copernicus.eu/copernicus-september-2023-unprecedented-temperature-anomalies) "September 2023 – unprecedented temperature anomalies; 2023 on track to be the warmest year on record". Used Python packages are matplotlib, numpy, and pandas.
+The visualisation is entirely data-based, using ERA5 data for 1940-2023, available from the [Copernicus press release](https://climate.copernicus.eu/copernicus-september-2023-unprecedented-temperature-anomalies) "September 2023 – unprecedented temperature anomalies; 2023 on track to be the warmest year on record". Used Python packages are matplotlib, numpy, and pandas. 
+
+The notebook makes use of polar coordinates, plotting the global temperatures in the complex plane. Larger distances to the centre of Earth correspond to warmer values, smaller distances to colder values. 
