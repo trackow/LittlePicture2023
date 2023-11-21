@@ -16,4 +16,4 @@ The Earth is plotted in blue as the 1950-1979 baseline. All other (following) ye
 
 The visualisation is entirely data-based, using ERA5 data for 1940-2023, available from the [Copernicus press release](https://climate.copernicus.eu/copernicus-september-2023-unprecedented-temperature-anomalies) "September 2023 – unprecedented temperature anomalies; 2023 on track to be the warmest year on record". Used Python packages are matplotlib, numpy, and pandas. 
 
-The notebook makes use of polar coordinates, plotting the global temperatures in the complex plane. Larger distances to the centre of Earth correspond to warmer values, smaller distances to colder values. 
+The notebook makes use of polar coordinates, plotting the global temperatures in the complex plane. Larger distances to the centre of Earth correspond to warmer values, smaller distances to colder values. One revolution around Earth corresponds to the timespan of one year.
