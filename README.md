@@ -1,5 +1,5 @@
 # LittlePicture2023
-Notebook to reproduce the submission Out of Orbit to the [Little Pictures of climate competition 2023](https://climate.esa.int/en/littlepicturescompetition/).
+Notebook to reproduce the submission Out of Orbit to the [Little Pictures of climate competition 2023](https://climate.esa.int/en/littlepicturescompetition/). Click [here](./LittlePictures_ERA5_global_2t.ipynb) to see all steps to reproduce the image below.
 
 ## Out of Orbit by Thomas Rackow
 
